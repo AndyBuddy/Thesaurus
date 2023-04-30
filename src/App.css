@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 2px;
+  padding: 0;
+}
+h6 {
+  text-align: center;
+  font-size: small;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c9c9c9;
+}
+.enter-text {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+div {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Search input styles */
+.search-input {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 20px 20px 20px 0px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #005fa3;
+}
+
+/* Results styles */
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.result-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc; /* Add a border to each item */
+}
